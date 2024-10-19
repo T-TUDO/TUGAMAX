@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAMAX - Filmes e Séries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ff0000;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .item {
+            margin: 15px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .item:hover {
+            transform: scale(1.05);
+        }
+        .item img {
+            width: 200px; /* Ajuste conforme necessário */
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>TUGAMAX - Filmes e Séries</h1>
+    
+    <h2>Séries</h2>
+    <div class="container">
+        <div class="item" onclick="window.location.href='series/serie1.html'">
+            <img src="c:\Users\mario\Desktop\TUGAMAX\tugamax\capas\MV5BNDJlMGI1MDYtZDM0MS00NDYzLWIyMmUtZTY5MjY3MzJiN2QwXkEyXkFqcGc@._V1_.jpg" alt="Série 1">
+        </div>
+        <div class="item" onclick="window.location.href='series/serie2.html'">
+            <img src="capes/capa-serie2.jpg" alt="Série 2">
+        </div>
+        <!-- Adicione mais séries aqui -->
+    </div>
+
+    <h2>Filmes</h2>
+    <div class="container">
+        <div class="item" onclick="window.location.href='filmes/filme1.html'">
+            <img src="c:\Users\mario\Desktop\TUGAMAX\tugamax\capas\How_to_Train_Your_Dragon_(filme)_Poster.jpg" alt="Filme 1">
+        </div>
+        <div class="item" onclick="window.location.href='filmes/filme2.html'">
+            <img src="capes/capa-filme2.jpg" alt="Filme 2">
+        </div>
+        <!-- Adicione mais filmes aqui -->
+    </div>
+
+</body>
+</html>
